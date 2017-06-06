@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <title>Ćwiczenia z matematyki</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Zadania z matematyki na poziomie drugiej klasy"/>
+    <meta name="keywords" content="matematyka, druga klasa, podstawówka, dodawanie, odejmowanie, równania"/>
+    <meta name="description" content="Strona główna, wybór gier">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="matematyka.js"></script>
+    <link rel="stylesheet" href="style_matematyka.css" type="text/css">
+
+</head>
+
+<body>
+<div id="container">
+    <div id="moneybox"></div>
+    <form name="przyciski">
+        <div id="board"></div>
+        <div id="submit"><input id="button" type="submit" value="Sprawdź" onclick="sprawdz()"></div>
+    </form>
+    <span style="clear:both;"></span>
+    <div id="hints">
+        <div class="hint">
+            <span style="font-size:22px; color:#0099ff;">Kolejność działań:</span><br/>
+            Mnożenie > Dodawanie<br/>
+            <span class="dobrze">Dobrze: 2+2•2=2+4=6<br/></span>
+            <span class="zle">Źle: 2+2•2=4•2=8</span><br/>
+            Dzielenie > Odejmowanie<br/>
+            <span class="dobrze">Dobrze: 8-4:2=8-2=6<br/></span>
+            <span class="zle">Źle: 8-4:2=4:2=2<br/></span>
+            Nawiasy>Mnożenie<br/>
+            <span class="dobrze">Dobrze: (6-4)•3=2•3=6<br/></span>
+            <span class="zle">Źle: (6-4)•3=6-12=-6<br/></span>
+            Nawiasy > Dzielenie<br/>
+            <span class="dobrze">Dobrze: 3:(1+2)=3:3=1<br/></span>
+            <span class="zle">Źle: 3:(1+2)=3+2=5<br/></span>
+        </div>
+        <div class="hint">
+            <span style="font-size:22px; color:#0099ff;">Pomocne przykłady:</span><br/>
+            Dodawanie:<br/>
+            <span class="a">2</span><span class="b">0</span>+<span class="a">2</span><span class="b">0</span>=<span
+                class="a">4</span><span class="b">0</span><br/>
+            <span class="a">2</span><span class="b">1</span>+<span class="a">2</span><span class="b">3</span>=(<span class="a">2</span>0+<span
+                class="a">2</span>0)+(<span class="b">1</span>+<span class="b">3</span>)=<span class="a">4</span>0+<span
+                class="b">4</span>=44<br/>
+            Odejmowanie:<br/>
+            <span class="a">7</span><span class="b">0</span>-<span class="a">2</span><span class="b">0</span>=<span
+                class="a">5</span><span class="b">0</span><br/>
+            <span class="a">7</span><span class="b">6</span>-<span class="a">2</span><span class="b">2</span>=(<span class="a">7</span>0-<span
+                class="a">2</span>0)+(<span class="b">6</span>-<span class="b">2</span>)=<span class="a">5</span>0+<span
+                class="b">4</span>=54<br/>
+            Mnożenie:<br/>
+            <span class="a">5</span>•3=<span class="a">5</span>+<span class="a">5</span>+<span class="a">5</span>=10+5=15<br/>
+            2•<span class="a">15</span>=<span class="a">15</span>+<span class="a">15</span>=(<span class="b">10</span>+<span class="b">10</span>)+(<span
+                class="c">5</span>+<span class="c">5</span>)=<span class="b">20</span>+<span class="c">10</span>=30<br/>
+            Dzielenie:<br/>
+            10:<span class="b">5</span>=<span class="a">2</span> | <span class="b">5</span>•<span class="a">2</span>=10<br/>
+            (<span class="a">2</span>+<span class="a">2</span>+<span class="a">2</span>+<span class="a">2</span>+<span
+                class="a">2</span>)=10<br/>
+        </div>
+        <span style="clear:both;"></span>
+    </div>
+    <div id="keyboard"></div>
+    <span style="clear:both;"></span>
+</div>
+<div class="footer">Piotr Stefanowicz &copy Kontakt: kontakt@piotr-stefanowicz.pl</div>
+</body>
+
+</html>
