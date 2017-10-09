@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styled from 'styled-components'
-import mathClass from '../img/math-class@1280x800.svg'
+import mathClass from '../../img/math-class@1280x800.svg'
 
 const MathBackground = styled.div`
 background: url(${mathClass}) no-repeat;

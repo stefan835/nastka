@@ -1,11 +1,11 @@
 import React from 'react'
 
-import MathClasses from "../MathClasses";
+import MathClassesBoard from "../Math/MathClassesBoard";
 
 
 const MathClassesView = () => {
   return (
-    <MathClasses/>
+    <MathClassesBoard/>
   )
 }
 
