@@ -2,6 +2,8 @@ import React from 'react'
 
 import styled from 'styled-components'
 import board from '../../img/board@1280x800.svg'
+import DataFetcher from '../../DataFetcher'
+import MathEquation from './MathEquation'
 
 const Background = styled.div`
 background: url(${board}) no-repeat;
@@ -31,9 +33,11 @@ const MathClassesBoard = () => {
   return (
     <Background>
       <Equation>
-        <div>12-5+8+2+1+5=_</div>
-        {/*<div>18•2=_</div>*/}
-        {/*<div>24:8+_=6</div>*/}
+        <DataFetcher
+          dataUrl={'/data/equations.json'}
+          component={MathEquation}
+          propName="equations"
+        />
       </Equation>
     </Background>
   )
