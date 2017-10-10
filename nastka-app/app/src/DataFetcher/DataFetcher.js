@@ -52,9 +52,12 @@ class DataFetcher extends React.Component {
         {
           fetching === false ? null : <Loader><img height="80px" src={logo} alt="logo"/></Loader>
 
-          }
+        }
         {
-          error === null ? null : <p>{error.message}</p>
+          error === null ? null : (function () {
+            console.warn(error)
+            return <p style={{textAlign: "center"}}>{"Spróbuj odświeżyć stronę"}</p>
+          })()
         }
         {
           data === null ? null :
