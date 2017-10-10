@@ -1,13 +1,22 @@
 import React from 'react'
+
 import getRandomElement from '../../_utils/getRandomElement/getRandomElement'
 
 const MathEquation = (props) => {
-  console.log(props.equations);
 
- const task = getRandomElement(props.equations)
-  console.log(task)
+  const task = getRandomElement(props.equations);
+  const equation = task.equation.split('').map((character, index) => {
+    return character === '_' ? <input className="equation-result--input no-spin" type="number"/> : character
+  });
+
   return (
-    <div>{task.equation}</div>
+    <div>
+      {
+        equation.map((character, index) => {
+          return <span key={index}>{character}</span>
+        })
+      }
+    </div>
   )
 };
 
