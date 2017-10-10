@@ -1,0 +1,810 @@
+[
+  {
+    "equation": "6+_+11=22",
+    "answer": "5"
+  },
+  {
+    "equation": "2+9:3=_",
+    "answer": "5"
+  },
+  {
+    "equation": "_+11=15",
+    "answer": "4"
+  },
+  {
+    "equation": "12:3=_",
+    "answer": "4"
+  },
+  {
+    "equation": "3•_•4=24",
+    "answer": "2"
+  },
+  {
+    "equation": "1+2•2+3=_",
+    "answer": "8"
+  },
+  {
+    "equation": "1+_+2=8",
+    "answer": "5"
+  },
+  {
+    "equation": "9-6+_=4",
+    "answer": "1"
+  },
+  {
+    "equation": "_•2+4=14",
+    "answer": "5"
+  },
+  {
+    "equation": "2+3-4+2=_",
+    "answer": "3"
+  },
+  {
+    "equation": "_+2=4",
+    "answer": "2"
+  },
+  {
+    "equation": "3+_=12",
+    "answer": "9"
+  },
+  {
+    "equation": "22-14=_",
+    "answer": "8"
+  },
+  {
+    "equation": "_-3=4",
+    "answer": "7"
+  },
+  {
+    "equation": "_•2=18",
+    "answer": "9"
+  },
+  {
+    "equation": "16:_=8",
+    "answer": "2"
+  },
+  {
+    "equation": "9:3=_",
+    "answer": "3"
+  },
+  {
+    "equation": "6+5+_=13",
+    "answer": "2"
+  },
+  {
+    "equation": "66-58=_",
+    "answer": "8"
+  },
+  {
+    "equation": "99-95=_",
+    "answer": "4"
+  },
+  {
+    "equation": "63-23=_",
+    "answer": "40"
+  },
+  {
+    "equation": "50-30+_=26",
+    "answer": "6"
+  },
+  {
+    "equation": "80-20-_=53",
+    "answer": "7"
+  },
+  {
+    "equation": "_+5-2+6=17",
+    "answer": "8"
+  },
+  {
+    "equation": "82-72=_",
+    "answer": "10"
+  },
+  {
+    "equation": "96-36=_",
+    "answer": "60"
+  },
+  {
+    "equation": "4+_=6",
+    "answer": "2"
+  },
+  {
+    "equation": "9-5=_",
+    "answer": "4"
+  },
+  {
+    "equation": "12-7=_",
+    "answer": "5"
+  },
+  {
+    "equation": "15-5-2=_",
+    "answer": "8"
+  },
+  {
+    "equation": "4+_+9+2=17",
+    "answer": "2"
+  },
+  {
+    "equation": "10-_+9-1=17",
+    "answer": "1"
+  },
+  {
+    "equation": "1+_+3+4=12",
+    "answer": "4"
+  },
+  {
+    "equation": "60–35=_",
+    "answer": "25"
+  },
+  {
+    "equation": "62–31=_",
+    "answer": "31"
+  },
+  {
+    "equation": "_•31=62",
+    "answer": "2"
+  },
+  {
+    "equation": "3•_=18",
+    "answer": "6"
+  },
+  {
+    "equation": "11-5+_-21+16=7",
+    "answer": "6"
+  },
+  {
+    "equation": "42-23+31+2=_",
+    "answer": "52"
+  },
+  {
+    "equation": "2•2•_=8",
+    "answer": "2"
+  },
+  {
+    "equation": "2•6+2•5=_",
+    "answer": "22"
+  },
+  {
+    "equation": "2•2•2=_",
+    "answer": "8"
+  },
+  {
+    "equation": "3•3=_",
+    "answer": "9"
+  },
+  {
+    "equation": "3•_=9",
+    "answer": "3"
+  },
+  {
+    "equation": "3•3•_=27",
+    "answer": "3"
+  },
+  {
+    "equation": "19-2+3-_=11",
+    "answer": "9"
+  },
+  {
+    "equation": "97-31=_",
+    "answer": "66"
+  },
+  {
+    "equation": "100-99=_",
+    "answer": "1"
+  },
+  {
+    "equation": "58-56=_",
+    "answer": "2"
+  },
+  {
+    "equation": "73-69=_",
+    "answer": "4"
+  },
+  {
+    "equation": "_•48=48",
+    "answer": "1"
+  },
+  {
+    "equation": "22:_=11",
+    "answer": "2"
+  },
+  {
+    "equation": "12:4=_",
+    "answer": "3"
+  },
+  {
+    "equation": "40:10=_",
+    "answer": "4"
+  },
+  {
+    "equation": "75-55=_",
+    "answer": "20"
+  },
+  {
+    "equation": "15:3=",
+    "answer": "5"
+  },
+  {
+    "equation": "_•3=15",
+    "answer": "5"
+  },
+  {
+    "equation": "15:_=5",
+    "answer": "3"
+  },
+  {
+    "equation": "10•_=40",
+    "answer": "4"
+  },
+  {
+    "equation": "2•7+3•7=_",
+    "answer": "35"
+  },
+  {
+    "equation": "3•2•4=_",
+    "answer": "24"
+  },
+  {
+    "equation": "42+55=_",
+    "answer": "97"
+  },
+  {
+    "equation": "_+32=66",
+    "answer": "34"
+  },
+  {
+    "equation": "102+_=156",
+    "answer": "54"
+  },
+  {
+    "equation": "22+41=_",
+    "answer": "63"
+  },
+  {
+    "equation": "52-_=15",
+    "answer": "37"
+  },
+  {
+    "equation": "6•4=_",
+    "answer": "24"
+  },
+  {
+    "equation": "92-71=_",
+    "answer": "21"
+  },
+  {
+    "equation": "99+_=109",
+    "answer": "10"
+  },
+  {
+    "equation": "42+12+42=_",
+    "answer": "96"
+  },
+  {
+    "equation": "98-21=_",
+    "answer": "67"
+  },
+  {
+    "equation": "_-52=47",
+    "answer": "99"
+  },
+  {
+    "equation": "12•3=_",
+    "answer": "36"
+  },
+  {
+    "equation": "62-51=_",
+    "answer": "1"
+  },
+  {
+    "equation": "92-59=_",
+    "answer": "33"
+  },
+  {
+    "equation": "_-59=33",
+    "answer": "92"
+  },
+  {
+    "equation": "51•_=102",
+    "answer": "2"
+  },
+  {
+    "equation": "72-21=_",
+    "answer": "51"
+  },
+  {
+    "equation": "42+12=_",
+    "answer": "54"
+  },
+  {
+    "equation": "18•2=_",
+    "answer": "36"
+  },
+  {
+    "equation": "72-42+_=94",
+    "answer": "64"
+  },
+  {
+    "equation": "32+52+2=_",
+    "answer": "86"
+  },
+  {
+    "equation": "92-91•1:1=_",
+    "answer": "1"
+  },
+  {
+    "equation": "72-21+4=_",
+    "answer": "55"
+  },
+  {
+    "equation": "52-_+52=85",
+    "answer": "19"
+  },
+  {
+    "equation": "88-_•2+1=1",
+    "answer": "44"
+  },
+  {
+    "equation": "88-44•2+1=_",
+    "answer": "1"
+  },
+  {
+    "equation": "14+65=_",
+    "answer": "79"
+  },
+  {
+    "equation": "55-17+32=_",
+    "answer": "70"
+  },
+  {
+    "equation": "66-99+44=_",
+    "answer": "11"
+  },
+  {
+    "equation": "4•2•2=_",
+    "answer": "16"
+  },
+  {
+    "equation": "92-55=_",
+    "answer": "37"
+  },
+  {
+    "equation": "999-998-_",
+    "answer": "1"
+  },
+  {
+    "equation": "200•_=600",
+    "answer": "3"
+  },
+  {
+    "equation": "12-5+8+2+1+5=_",
+    "answer": "23"
+  },
+  {
+    "equation": "23•2+12=_",
+    "answer": "58"
+  },
+  {
+    "equation": "23•_+12=58",
+    "answer": "2"
+  },
+  {
+    "equation": "99-22-24-12=_",
+    "answer": "41"
+  },
+  {
+    "equation": "2•22=_",
+    "answer": "44"
+  },
+  {
+    "equation": "1000-998=_",
+    "answer": "2"
+  },
+  {
+    "equation": "18-6+2•3=_",
+    "answer": "18"
+  },
+  {
+    "equation": " _-6+2•3=18",
+    "answer": "18"
+  },
+  {
+    "equation": "3•4+6-2=_",
+    "answer": "16"
+  },
+  {
+    "equation": "3•4+_-2=16",
+    "answer": "6"
+  },
+  {
+    "equation": "24-16=_",
+    "answer": "8"
+  },
+  {
+    "equation": "24-_=8",
+    "answer": "16"
+  },
+  {
+    "equation": "4•5+3=_",
+    "answer": "23"
+  },
+  {
+    "equation": "4•_+3=23",
+    "answer": "5"
+  },
+  {
+    "equation": "21:3+3=_",
+    "answer": "10"
+  },
+  {
+    "equation": "21:_+3=10",
+    "answer": "3"
+  },
+  {
+    "equation": "19-7+3•3=_",
+    "answer": "21"
+  },
+  {
+    "equation": "19-_+3•3=21",
+    "answer": "7"
+  },
+  {
+    "equation": "23+7-2=_",
+    "answer": "28"
+  },
+  {
+    "equation": "23+_-2=28",
+    "answer": "7"
+  },
+  {
+    "equation": "40-20-1=_",
+    "answer": "19"
+  },
+  {
+    "equation": "_-20-1=19",
+    "answer": "40"
+  },
+  {
+    "equation": "2•7+6=_",
+    "answer": "20"
+  },
+  {
+    "equation": "2•_+6=20",
+    "answer": "7"
+  },
+  {
+    "equation": "7•3+4=_",
+    "answer": "25"
+  },
+  {
+    "equation": "7•3+_=25",
+    "answer": "4"
+  },
+  {
+    "equation": "9•3-7=_",
+    "answer": "20"
+  },
+  {
+    "equation": "_•3-7=20",
+    "answer": "9"
+  },
+  {
+    "equation": "18+6-24=_",
+    "answer": "48"
+  },
+  {
+    "equation": "18+6-_=48",
+    "answer": "24"
+  },
+  {
+    "equation": "3•3+18=_",
+    "answer": "27"
+  },
+  {
+    "equation": "3•3+_=27",
+    "answer": "18"
+  },
+  {
+    "equation": "25-10+25=_",
+    "answer": "25"
+  },
+  {
+    "equation": "25-10+_=10",
+    "answer": "25"
+  },
+  {
+    "equation": "4•4-4•1=_",
+    "answer": "12"
+  },
+  {
+    "equation": "4•4-4•_=12",
+    "answer": "1"
+  },
+  {
+    "equation": "24-12+4=_",
+    "answer": "16"
+  },
+  {
+    "equation": "24-_+4=16",
+    "answer": "12"
+  },
+  {
+    "equation": "30-3•5=_",
+    "answer": "30"
+  },
+  {
+    "equation": "_-3•5=15",
+    "answer": "15"
+  },
+  {
+    "equation": "27:3=_",
+    "answer": "9"
+  },
+  {
+    "equation": "27:_=9",
+    "answer": "3"
+  },
+  {
+    "equation": "3•9+3=_",
+    "answer": "30"
+  },
+  {
+    "equation": "_•9+3=30",
+    "answer": "3"
+  },
+  {
+    "equation": "4•5-4=_",
+    "answer": "16"
+  },
+  {
+    "equation": "4•_-4=16",
+    "answer": "5"
+  },
+  {
+    "equation": "16-8=_",
+    "answer": "8"
+  },
+  {
+    "equation": "_-8=8",
+    "answer": "16"
+  },
+  {
+    "equation": "19+6-5=_",
+    "answer": "20"
+  },
+  {
+    "equation": "19+6-_=20",
+    "answer": "5"
+  },
+  {
+    "equation": "8•3+4=_",
+    "answer": "28"
+  },
+  {
+    "equation": "8•_+4=28",
+    "answer": "3"
+  },
+  {
+    "equation": "4•6-4=_",
+    "answer": "20"
+  },
+  {
+    "equation": "4•_-4=20",
+    "answer": "6"
+  },
+  {
+    "equation": "6+12+2•1=_",
+    "answer": "20"
+  },
+  {
+    "equation": "6+12+_•1=20",
+    "answer": "2"
+  },
+  {
+    "equation": "8•2-3:1=_",
+    "answer": "13"
+  },
+  {
+    "equation": "8•_-3:1=13",
+    "answer": "2"
+  },
+  {
+    "equation": "4•4-2•2=_",
+    "answer": "12"
+  },
+  {
+    "equation": "4•_-2•2=12",
+    "answer": "4"
+  },
+  {
+    "equation": "5•5-5=_",
+    "answer": "20"
+  },
+  {
+    "equation": "5•_-5=20",
+    "answer": "5"
+  },
+  {
+    "equation": "8:4+10=_",
+    "answer": "12"
+  },
+  {
+    "equation": "_:4+10=12",
+    "answer": "8"
+  },
+  {
+    "equation": "16:4+5=_",
+    "answer": "9"
+  },
+  {
+    "equation": "16:4+_=9",
+    "answer": "5"
+  },
+  {
+    "equation": "21:3+3=_",
+    "answer": "10"
+  },
+  {
+    "equation": "21:_+3=10",
+    "answer": "3"
+  },
+  {
+    "equation": "24:8+3=_",
+    "answer": "6"
+  },
+  {
+    "equation": "24:8+_=6",
+    "answer": "3"
+  },
+  {
+    "equation": "30-5+1•2=_",
+    "answer": "27"
+  },
+  {
+    "equation": "30-_+1•2=27",
+    "answer": "5"
+  },
+  {
+    "equation": "27-7+3=_",
+    "answer": "23"
+  },
+  {
+    "equation": "27-_+3=23",
+    "answer": "7"
+  },
+  {
+    "equation": "27:3+1=_",
+    "answer": "10"
+  },
+  {
+    "equation": "_:3+1=10",
+    "answer": "27"
+  },
+  {
+    "equation": "12:3+4=_",
+    "answer": "8"
+  },
+  {
+    "equation": "12:3+_=8",
+    "answer": "4"
+  },
+  {
+    "equation": "3•5-2•3=_",
+    "answer": "9"
+  },
+  {
+    "equation": "3•_-2•3=9",
+    "answer": "5"
+  },
+  {
+    "equation": "2•8-6:3=_",
+    "answer": "18"
+  },
+  {
+    "equation": "2•8-_:3=18",
+    "answer": "6"
+  },
+  {
+    "equation": "12+3-6=_",
+    "answer": "9"
+  },
+  {
+    "equation": "12+3-_=9",
+    "answer": "6"
+  },
+  {
+    "equation": "9:3+15:3=_",
+    "answer": "8"
+  },
+  {
+    "equation": "9:3+15:_=8",
+    "answer": "3"
+  },
+  {
+    "equation": "18:2-3•2=_",
+    "answer": "3"
+  },
+  {
+    "equation": "18:_-3•2=3",
+    "answer": "2"
+  },
+  {
+    "equation": "13+4+2•2=_",
+    "answer": "21"
+  },
+  {
+    "equation": "13+_+2•2=21",
+    "answer": "4"
+  },
+  {
+    "equation": "17-2•3+2=_",
+    "answer": "13"
+  },
+  {
+    "equation": "_-2•3+2=13",
+    "answer": "17"
+  },
+  {
+    "equation": "25-2•5=_",
+    "answer": "15"
+  },
+  {
+    "equation": "25-_•5=15",
+    "answer": "2"
+  },
+  {
+    "equation": "26-2•2+3=_",
+    "answer": "25"
+  },
+  {
+    "equation": "26-2•2+_=25",
+    "answer": "3"
+  },
+  {
+    "equation": "30-2•5-5=_",
+    "answer": "15"
+  },
+  {
+    "equation": "30-2•_-5=15",
+    "answer": "5"
+  },
+  {
+    "equation": " 8-2+3•3=_",
+    "answer": "15"
+  },
+  {
+    "equation": " _-2+3•3=15",
+    "answer": "8"
+  },
+  {
+    "equation": "4•6+4=_",
+    "answer": "28"
+  },
+  {
+    "equation": "4•_+4=28",
+    "answer": "6"
+  },
+  {
+    "equation": "3•7-2:2=_",
+    "answer": "20"
+  },
+  {
+    "equation": "3•7-2:_=20",
+    "answer": "2"
+  },
+  {
+    "equation": "13:1-3=_",
+    "answer": "10"
+  },
+  {
+    "equation": "_:1-3=10",
+    "answer": "13"
+  },
+  {
+    "equation": "4:1+3=_",
+    "answer": "7"
+  },
+  {
+    "equation": "4:1+_=7",
+    "answer": "3"
+  }
+]
