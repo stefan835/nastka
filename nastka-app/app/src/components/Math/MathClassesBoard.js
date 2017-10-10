@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import board from '../../img/board@1280x800.svg'
 import DataFetcher from '../../DataFetcher'
 import MathEquation from './MathEquation'
+import Button from '../Button'
 
 const Background = styled.div`
 background: url(${board}) no-repeat;
@@ -14,10 +15,11 @@ display: flex;
 justify-content: center;
 `;
 
-const Equation = styled.div`
+const Board = styled.div`
 color:#fff;
 font-size: 120px;
 display:flex;
+justify-content:center;
 align-items: center;
 font-family: 'Crafty Girls', cursive;
 // font-family: 'Leckerli One', cursive;
@@ -29,16 +31,25 @@ font-family: 'Crafty Girls', cursive;
 // font-family: 'Dawning of a New Day', cursive;
 `;
 
+const Form = styled.form`
+display:flex;
+justify-content:space-around;
+flex-direction:column;
+
+`
 const MathClassesBoard = () => {
   return (
     <Background>
-      <Equation>
-        <DataFetcher
-          dataUrl={'/data/equations.json'}
-          component={MathEquation}
-          propName="equations"
-        />
-      </Equation>
+      <Board>
+        <Form>
+          <DataFetcher
+            dataUrl={'/data/equations.json'}
+            component={MathEquation}
+            propName="equations"
+          />
+          <Button clsName={"btn-transparent"} textContent={"Sprawdź"}/>
+        </Form>
+      </Board>
     </Background>
   )
 }
