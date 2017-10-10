@@ -2,7 +2,6 @@ import React from 'react'
 
 import styled from 'styled-components'
 import board from '../../img/board@1280x800.svg'
-import DataFetcher from '../../DataFetcher'
 import MathEquation from './MathEquation'
 import Button from '../Button'
 
@@ -13,6 +12,7 @@ width:1280px;
 margin:auto;
 display: flex;
 justify-content: center;
+align-items:center;
 `;
 
 const Board = styled.div`
@@ -35,23 +35,20 @@ const Form = styled.form`
 display:flex;
 justify-content:space-around;
 flex-direction:column;
+align-items:center;
+`;
 
-`
-const MathClassesBoard = () => {
+const MathClassesBoard = (props) => {
   return (
     <Background>
       <Board>
         <Form>
-          <DataFetcher
-            dataUrl={'/data/equations.json'}
-            component={MathEquation}
-            propName="equations"
-          />
+          <MathEquation equations={props.equations}/>
           <Button clsName={"btn-transparent"} textContent={"Sprawdź"}/>
         </Form>
       </Board>
     </Background>
   )
-}
+};
 
 export default MathClassesBoard
