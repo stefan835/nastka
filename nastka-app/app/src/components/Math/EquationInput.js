@@ -16,7 +16,7 @@ class Input extends React.Component {
       <input value={this.state.answer}
              onChange={handleChange}
              className="equation-result--input no-spin"
-             type="text"/>
+             type="number"/>
     )
   }
 }

@@ -22,13 +22,6 @@ display:flex;
 justify-content:center;
 align-items: center;
 font-family: 'Crafty Girls', cursive;
-// font-family: 'Leckerli One', cursive;
-// font-family: 'Damion', cursive;
-// font-family: 'Rock Salt', cursive;
-// font-family: 'Give You Glory', cursive;
-// font-family: 'Over the Rainbow', cursive;
-// font-family: 'Mrs Sheppards', cursive;
-// font-family: 'Dawning of a New Day', cursive;
 `;
 
 const Form = styled.form`
@@ -38,11 +31,15 @@ flex-direction:column;
 align-items:center;
 `;
 
+const handleSubmit = (e) => {
+  e.preventDefault();
+};
+
 const MathClassesBoard = (props) => {
   return (
     <Background>
       <Board>
-        <Form>
+        <Form onSubmit={handleSubmit}>
           <MathEquation equations={props.equations}/>
           <Button clsName={"btn-transparent"} textContent={"Sprawdź"}/>
         </Form>
