@@ -1,4 +1,7 @@
 import React from 'react'
+import {connect} from 'react-redux'
+
+import {equationGetAnswer} from '../../state/equationAnswer'
 
 class Input extends React.Component {
 
@@ -11,6 +14,7 @@ class Input extends React.Component {
       this.setState({
         answer: e.target.value
       });
+      this.props.equationGetAnswer(e.target.value)
     };
     return (
       <input value={this.state.answer}
@@ -21,4 +25,9 @@ class Input extends React.Component {
   }
 }
 
-export default Input
+export default connect(
+  null,
+  dispatch => ({
+    equationGetAnswer: (answer) => dispatch(equationGetAnswer(answer))
+  })
+)(Input)

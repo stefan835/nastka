@@ -23,3 +23,4 @@ const MathEquation = (props) => {
 };
 
 export default MathEquation
+

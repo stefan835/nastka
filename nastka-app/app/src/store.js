@@ -1,6 +1,10 @@
 import {createStore, combineReducers} from 'redux'
 
-const reducer = combineReducers({});
+import equationAnswer from './state/equationAnswer'
+
+const reducer = combineReducers({
+  equationAnswer
+});
 
 const store = createStore(
   reducer,
