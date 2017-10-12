@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './App.css';
 
 import MathClassesView from "./components/views/MathClassesView";
 
