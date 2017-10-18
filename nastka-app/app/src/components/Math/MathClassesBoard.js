@@ -1,9 +1,12 @@
 import React from 'react'
-
 import styled from 'styled-components'
+import {connect} from "react-redux";
+
 import board from '../../img/board@1280x800.svg'
 import MathEquation from './MathEquation'
 import Button from '../Button'
+import {getTask} from "../../state/mathTask";
+import getRandomElement from "../../_utils/getRandomElement/getRandomElement";
 
 const Background = styled.div`
 background: url(${board}) no-repeat;
@@ -31,21 +34,31 @@ flex-direction:column;
 align-items:center;
 `;
 
-const handleSubmit = (e) => {
-  e.preventDefault();
-};
+class MathClassesBoard extends React.Component {
+  render() {
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      this.props.getTask(getRandomElement(this.props.equations))
+    };
 
-const MathClassesBoard = (props) => {
-  return (
-    <Background>
-      <Board>
-        <Form onSubmit={handleSubmit}>
-          <MathEquation equations={props.equations}/>
-          <Button clsName={"btn-transparent"} textContent={"Sprawdź"}/>
-        </Form>
-      </Board>
-    </Background>
-  )
-};
+    return (
+      <Background>
+        <Board>
+          <Form onSubmit={handleSubmit}>
+            <MathEquation equations={this.props.equations}/>
+            <Button clsName={"btn-transparent"} textContent={"Sprawdź"}/>
+          </Form>
+        </Board>
+      </Background>
+    )
+  };
+}
 
-export default MathClassesBoard
+export default connect(
+  state => ({
+    task: state.task
+  }),
+  dispatch => ({
+    getTask: (task) => dispatch(getTask(task))
+  })
+)(MathClassesBoard)

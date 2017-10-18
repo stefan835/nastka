@@ -1,9 +1,11 @@
 import {createStore, combineReducers} from 'redux'
 
 import equationAnswer from './state/equationAnswer'
+import task from './state/mathTask'
 
 const reducer = combineReducers({
-  equationAnswer
+  equationAnswer,
+  task
 });
 
 const store = createStore(
