@@ -28,7 +28,6 @@ class MathEquation extends React.Component {
   };
 }
 
-
 export default connect(
   state => ({
     task: state.task

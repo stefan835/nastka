@@ -38,7 +38,9 @@ class MathClassesBoard extends React.Component {
   render() {
     const handleSubmit = (e) => {
       e.preventDefault();
+      console.log('Is answer correct?', this.props.task.answer === this.props.answer);
       this.props.getTask(getRandomElement(this.props.equations))
+
     };
 
     return (
@@ -56,7 +58,8 @@ class MathClassesBoard extends React.Component {
 
 export default connect(
   state => ({
-    task: state.task
+    task: state.task.task,
+    answer: state.equationAnswer.answer
   }),
   dispatch => ({
     getTask: (task) => dispatch(getTask(task))
